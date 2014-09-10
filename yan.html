@@ -1,0 +1,484 @@
+<html>
+
+</head>
+
+<script type="text/javascript">
+
+//初始化迅雷插件
+a=["http://i2.tietuku.com/6bb7ee4cbb127be6.jpg",
+"http://i2.tietuku.com/913616af6caa7b50.jpg",
+"http://i2.tietuku.com/3d89b4dbc1d04d8d.jpg",
+"http://i2.tietuku.com/b14de2c0f5dc2e9e.jpg",
+"http://i2.tietuku.com/eb742ee57deb0b50.jpg",
+"http://i2.tietuku.com/1a65ed769ebcb2f0.jpg",
+"http://i2.tietuku.com/940b00bf9ae53532.jpg",
+"http://i2.tietuku.com/569d0ebd8e05a441.jpg",
+"http://i2.tietuku.com/e14b06ed83bd1a62.jpg",
+"http://i2.tietuku.com/e07980fa74f27da3.jpg",
+"http://i2.tietuku.com/82c7adb5b4f1fcc6.jpg",
+"http://i2.tietuku.com/2bd5a39e45d00c6f.jpg",
+"http://i2.tietuku.com/e51c4bb4217cc747.jpg",
+"http://i2.tietuku.com/e4c3f0785e5d680f.jpg",
+"http://i2.tietuku.com/a374d8ff3cb19af4.jpg",
+"http://i2.tietuku.com/1c0c744234e6b774.jpg",
+"http://i2.tietuku.com/a609e333ad8cd357.jpg",
+"http://i2.tietuku.com/88b53cc8ac0aa106.jpg",
+"http://i2.tietuku.com/2e496fe768d69536.jpg",
+"http://i2.tietuku.com/8aba9b87631db509.jpg",
+"http://i2.tietuku.com/faceeb74c778cb0c.jpg",
+"http://i2.tietuku.com/aca99f9e0287b866.jpg",
+"http://i2.tietuku.com/60a4711b599fb0a2.jpg",
+"http://i2.tietuku.com/d16a55bda58ad87c.jpg",
+"http://i2.tietuku.com/f25b6b234322579c.jpg",
+"http://i2.tietuku.com/e5b8dce98585b58c.jpg",
+"http://i2.tietuku.com/1e79c2ac6df7adb6.jpg",
+"http://i2.tietuku.com/e51c4bb4217cc747.jpg",
+"http://i2.tietuku.com/b21ae559304b2482.jpg",
+"http://i2.tietuku.com/828f1ef2ae9e991c.jpg",
+"http://i2.tietuku.com/5ebe33d833d7f7a0.jpg",
+"http://i2.tietuku.com/397bd3c11e568d33.jpg",
+"http://i2.tietuku.com/c9273a2b66fe4d55.jpg",
+"http://i2.tietuku.com/8830d78d84f7e5b9.jpg",
+"http://i2.tietuku.com/8830d78d84f7e5b9.jpg",
+"http://i2.tietuku.com/334ebbadfb21406d.jpg",
+"http://i2.tietuku.com/6efbc9728ffdc39f.jpg",
+"http://i2.tietuku.com/c6769f8d7f18ac71.jpg",
+"http://i2.tietuku.com/06ce80a023b60a2f.jpg",
+"http://i2.tietuku.com/35a7b2f0b34213de.jpg",
+"http://i2.tietuku.com/b01a617ace70a347.jpg",
+"http://i2.tietuku.com/da36cea611ede6d5.jpg",
+"http://i2.tietuku.com/37f87b4494ef0602.jpg",
+"http://i2.tietuku.com/1ccc00308bfcd03d.jpg",
+"http://i2.tietuku.com/6eba00364a216f24.jpg",
+"http://i2.tietuku.com/00ef3cfc6bca1227.jpg",
+"http://i2.tietuku.com/376ee5af8c6f23a5.jpg",
+"http://i2.tietuku.com/3cc27556c417ef8d.jpg",
+"http://i2.tietuku.com/944047a64e6ef9e1.jpg",
+"http://i2.tietuku.com/f14cfa3a2fd71dc1.jpg",
+"http://i2.tietuku.com/b01a617ace70a347.jpg",
+"http://i2.tietuku.com/81020ad4278de40d.jpg",
+"http://i2.tietuku.com/a1dac791f8d5ae7b.jpg",
+"http://i2.tietuku.com/1b28839384c68d32.jpg",
+"http://i2.tietuku.com/21032bf135684240.jpg",
+"http://i2.tietuku.com/3efdad823fbf8bdf.jpg",
+"http://i2.tietuku.com/00ef3cfc6bca1227.jpg",
+"http://i2.tietuku.com/fbee02e56737c512.jpg",
+"http://i2.tietuku.com/a535e2fe3808de30.jpg",
+"http://i2.tietuku.com/145c13f89b533b0d.jpg",
+"http://i2.tietuku.com/3d3d0d84d8a9e437.jpg",
+"http://i2.tietuku.com/15000d0e693d9a92.jpg",
+"http://i2.tietuku.com/de706f53387cbf37.jpg",
+"http://i2.tietuku.com/f2c2143c97a4d129.jpg",
+"http://i2.tietuku.com/7177f7e667d715a0.jpg",
+"http://i2.tietuku.com/79b5cb5da1e9b03c.jpg",
+"http://i2.tietuku.com/d702a8a9e2821ff2.jpg",
+"http://i2.tietuku.com/754a69a5c51fbd15.jpg",
+"http://i2.tietuku.com/78e51c7eb8fa450a.jpg",
+"http://i2.tietuku.com/00152646bbd4cdc1.jpg",
+"http://i2.tietuku.com/d55e990614582b82.jpg",
+"http://i2.tietuku.com/b3e68824cb0db3a2.jpg",
+"http://i2.tietuku.com/3117dfa866ba3d0d.jpg",
+"http://i2.tietuku.com/d0078651c75568a0.jpg",
+"http://i2.tietuku.com/7e84cc64a49e3ec2.jpg",
+"http://i2.tietuku.com/ab2f719f256882c5.jpg",
+"http://i2.tietuku.com/e4efb291b3e10742.jpg",
+"http://i2.tietuku.com/28fc7894e548869e.jpg",
+"http://i2.tietuku.com/cbf37fc726bfa779.jpg",
+"http://i2.tietuku.com/6be78102d2f36a18.jpg",
+"http://i2.tietuku.com/99456e82f9aa3009.jpg",
+"http://i2.tietuku.com/47317b64fe5bec03.jpg",
+"http://i2.tietuku.com/dc8ff364f802538c.jpg",
+"http://i2.tietuku.com/1cb1d184f235fa0b.jpg",
+"http://i2.tietuku.com/f35625e6228eef80.jpg",
+"http://i2.tietuku.com/0e6db79f95445292.jpg",
+"http://i2.tietuku.com/30a9f4a04c09e28d.jpg",
+"http://i2.tietuku.com/699cea19ef87cb54.jpg",
+"http://i2.tietuku.com/f3a605a04f7a2e11.jpg",
+"http://i2.tietuku.com/78e51c7eb8fa450a.jpg",
+"http://i2.tietuku.com/2f3ff1a2c2d32601.jpg",
+"http://i2.tietuku.com/09be99b18bea6346.jpg",
+"http://i2.tietuku.com/48299d81ede596af.jpg",
+"http://i2.tietuku.com/6eb55f5ac1447717.jpg",
+"http://i2.tietuku.com/699cea19ef87cb54.jpg",
+"http://i2.tietuku.com/93c022ec1f30718b.jpg",
+"http://i2.tietuku.com/268b2fc292dcb9a6.jpg",
+"http://i2.tietuku.com/a2a80800c4100ff6.jpg",
+"http://i2.tietuku.com/fe2aa2fd4e0053c6.jpg",
+"http://i2.tietuku.com/95b69e98ac301740.jpg",
+"http://i2.tietuku.com/3eccdcdd2db4e3ba.jpg",
+"http://i2.tietuku.com/4468218ac357f403.jpg",
+"http://i2.tietuku.com/67ad8a0629f44c46.jpg",
+"http://i2.tietuku.com/81c295698e7efd0e.jpg",
+"http://i2.tietuku.com/2c33452579446b5d.jpg",
+"http://i2.tietuku.com/b65a77a97f0769fe.jpg",
+"http://i2.tietuku.com/c6ea44054c55dfb1.jpg",
+"http://i2.tietuku.com/6368bd7f4c85f2f8.jpg",
+"http://i2.tietuku.com/01ae8d1a7c249c88.jpg",
+"http://i2.tietuku.com/3d3d0d84d8a9e437.jpg",
+"http://i2.tietuku.com/0bf6b84f6c867dc8.jpg",
+"http://i2.tietuku.com/4300c44a3ce1c950.jpg",
+"http://i2.tietuku.com/14985756332055e0.jpg",
+"http://i2.tietuku.com/76ce7be4415647f7.jpg",
+"http://i2.tietuku.com/59818f6db90f51c7.jpg",
+"http://i2.tietuku.com/fca9b133b086367f.jpg",
+"http://i2.tietuku.com/5c0babe5f670e45e.jpg",
+"http://i2.tietuku.com/6ea6b216f4d6a2f0.jpg",
+"http://i2.tietuku.com/56655370bae0f874.jpg",
+"http://i2.tietuku.com/6762bb19ccb8327d.jpg",
+"http://i2.tietuku.com/e027d37744ab1d4a.jpg",
+"http://i2.tietuku.com/c49f416b8df621aa.jpg",
+"http://i2.tietuku.com/4336fb1d25965091.jpg",
+"http://i2.tietuku.com/e88124f16f60cbb6.jpg",
+"http://i2.tietuku.com/b9217c99c01af1cf.jpg",
+"http://i2.tietuku.com/a2a80800c4100ff6.jpg",
+"http://i2.tietuku.com/29d1a0c4d73c5f45.jpg",
+"http://i2.tietuku.com/d8b4af09ae48a51a.jpg",
+"http://i2.tietuku.com/fb108d057536c090.jpg",
+"http://i2.tietuku.com/de7ea8dfa164b51d.jpg",
+"http://i2.tietuku.com/3e39f2b9fe8313bf.jpg",
+"http://i2.tietuku.com/955ea8f3a15f34ea.jpg",
+"http://i2.tietuku.com/51bf7b0328e3461d.jpg",
+"http://i2.tietuku.com/c59f9a54cfedcf6e.jpg",
+"http://i2.tietuku.com/3c36f12ffc5cafe1.jpg",
+"http://i2.tietuku.com/61556b516b3f671f.jpg",
+"http://i2.tietuku.com/8ed08519088edca3.jpg",
+"http://i2.tietuku.com/cd96a3f477acb480.jpg",
+"http://i2.tietuku.com/1f366117b50317e4.jpg",
+"http://i2.tietuku.com/6c0916335728a5bc.jpg",
+"http://i2.tietuku.com/de263371a908901a.jpg",
+"http://i2.tietuku.com/3d3d0d84d8a9e437.jpg",
+"http://i2.tietuku.com/c64f5c970c278645.jpg",
+"http://i2.tietuku.com/3cc27556c417ef8d.jpg",
+"http://i2.tietuku.com/0757b3c489d7d769.jpg",
+"http://i2.tietuku.com/c3a558de541ee7a5.jpg",
+"http://i2.tietuku.com/2d304b1e13cd6f1b.jpg",
+"http://i2.tietuku.com/c676e7ebe9e4df97.jpg",
+"http://i2.tietuku.com/50c272d713a80dc6.jpg",
+"http://i2.tietuku.com/49e49313cf44a004.jpg",
+"http://i2.tietuku.com/649faef2374d4c2d.jpg",
+"http://i2.tietuku.com/8ded662f2d59033a.jpg",
+"http://i2.tietuku.com/ff381e569e655164.jpg",
+"http://i2.tietuku.com/2d5cfd93884f38c1.jpg",
+"http://i2.tietuku.com/cbf0b3d7695054c3.jpg",
+"http://i2.tietuku.com/0bf6b84f6c867dc8.jpg",
+"http://i2.tietuku.com/4adccd80762594e2.jpg",
+"http://i2.tietuku.com/492df1bede449196.jpg",
+"http://i2.tietuku.com/c8569fd2128cc534.jpg",
+"http://i2.tietuku.com/4984e7b8022c9dc7.jpg",
+"http://i2.tietuku.com/3eccdcdd2db4e3ba.jpg",
+"http://i2.tietuku.com/3f493e681eb766ed.jpg",
+"http://i2.tietuku.com/854c9a5da847a818.jpg",
+"http://i2.tietuku.com/2d5cfd93884f38c1.jpg",
+"http://i2.tietuku.com/f466e24eb82b888c.jpg",
+"http://i2.tietuku.com/86b954a89e13c557.jpg",
+"http://i2.tietuku.com/ff9b2e735622d05b.jpg",
+"http://i2.tietuku.com/3b8dfd2758c16969.jpg",
+"http://i2.tietuku.com/73893ccd95048af9.jpg",
+"http://i2.tietuku.com/74348df629bbead8.jpg",
+"http://i2.tietuku.com/3ecbe8b474f18879.jpg",
+"http://i2.tietuku.com/c58d1ec32e362d8c.jpg",
+"http://i2.tietuku.com/535aad8220ef25e5.jpg",
+"http://i2.tietuku.com/686847c89bda6247.jpg",
+"http://i2.tietuku.com/b65a77a97f0769fe.jpg",
+"http://i2.tietuku.com/4300c44a3ce1c950.jpg",
+"http://i2.tietuku.com/4df8da0473c35c0f.jpg",
+"http://i2.tietuku.com/b2b1c6400999fc06.jpg",
+"http://i2.tietuku.com/ab0bd94fc806a21b.jpg",
+"http://i2.tietuku.com/78889d738afe81f7.jpg",
+"http://i2.tietuku.com/3c5f357151c708c6.jpg",
+"http://i2.tietuku.com/0fce92d1eda2630b.jpg",
+"http://i2.tietuku.com/c14358cdbf5066d6.jpg",
+"http://i2.tietuku.com/a30e9ca16a52389d.jpg",
+"http://i2.tietuku.com/8ad47cf4c74a7f61.jpg",
+"http://i2.tietuku.com/64678f39519bcb2e.jpg",
+"http://i2.tietuku.com/2305ab8ec24c7ce3.jpg",
+"http://i2.tietuku.com/016e57b431f837d4.jpg",
+"http://i2.tietuku.com/13b9ff18b44d595d.jpg",
+"http://i2.tietuku.com/79bc88f717dfe659.jpg",
+"http://i2.tietuku.com/73a29dbbec730dac.jpg",
+"http://i2.tietuku.com/112ae9f729d858ee.jpg",
+"http://i2.tietuku.com/0e9796badc6df36d.jpg",
+"http://i2.tietuku.com/943e7f390d876dde.jpg",
+"http://i2.tietuku.com/6fbb6fb7cd51eb58.jpg",
+"http://i2.tietuku.com/490b5ef02f7d334b.jpg",
+"http://i2.tietuku.com/2bb0ef71c678f630.jpg",
+"http://i2.tietuku.com/af5656e04aa9a6b0.jpg",
+"http://i2.tietuku.com/a33ad8407172ed0c.jpg",
+"http://i2.tietuku.com/4e2a9b73dc6b6405.jpg",
+"http://i2.tietuku.com/a11fec6866f1df9e.jpg",
+"http://i2.tietuku.com/d4585201f9c4bc9b.jpg",
+"http://i2.tietuku.com/917f2fbcf1ca7857.jpg",
+"http://i2.tietuku.com/12c79b01e9c6b378.jpg",
+"http://i2.tietuku.com/15e69b8a3d0d369a.jpg",
+"http://i2.tietuku.com/fbc752b2cee5ffdb.jpg",
+"http://i2.tietuku.com/af892715bbd40ea1.jpg",
+"http://i2.tietuku.com/7328a76255ab8fb8.jpg",
+"http://i2.tietuku.com/70107c4aa36d4fc5.jpg",
+"http://i2.tietuku.com/0a71534b93137a77.jpg",
+"http://i2.tietuku.com/bf5a391b703f440c.jpg",
+"http://i2.tietuku.com/f6c591fff33e964f.jpg",
+"http://i2.tietuku.com/381d5589e01a7592.jpg",
+"http://i2.tietuku.com/e10e09b60c526d7d.jpg",
+"http://i2.tietuku.com/adca934ab384fc09.jpg",
+"http://i2.tietuku.com/bbc7853a8316eb58.jpg",
+"http://i2.tietuku.com/e6b45afe64b2b44b.jpg",
+"http://i2.tietuku.com/bbc7853a8316eb58.jpg",
+"http://i2.tietuku.com/489fe02cced6d4fa.jpg",
+"http://i2.tietuku.com/69cb74ce3ea11b43.jpg",
+"http://i2.tietuku.com/1504d2ef9b5ce430.jpg",
+"http://i2.tietuku.com/49b15373fef6f37e.jpg",
+"http://i2.tietuku.com/6682617597a28751.jpg",
+"http://i2.tietuku.com/f8cfe4d648bea79c.jpg",
+"http://i2.tietuku.com/2f7af4d1e2312d5b.jpg",
+"http://i2.tietuku.com/3d5fb361f7422965.jpg",
+"http://i2.tietuku.com/f2142489754d5af7.jpg",
+"http://i2.tietuku.com/a5932f059f4d0481.jpg",
+"http://i2.tietuku.com/e0ada685da2ed5df.jpg",
+"http://i2.tietuku.com/2d304b1e13cd6f1b.jpg",
+"http://i2.tietuku.com/8fb01ceffa0d904f.jpg",
+"http://i2.tietuku.com/b641984ced53e963.jpg",
+"http://i2.tietuku.com/65421bd53f18266e.jpg",
+"http://i2.tietuku.com/65c1a4e112774ef0.jpg",
+"http://i2.tietuku.com/39a34cd0bd2276b9.jpg",
+"http://i2.tietuku.com/ce8697b881c56b16.jpg",
+"http://i2.tietuku.com/623624488057de8e.jpg",
+"http://i2.tietuku.com/62759ce49e438223.jpg",
+"http://i2.tietuku.com/e0ada685da2ed5df.jpg",
+"http://i2.tietuku.com/cabad474d2bbf6bd.jpg",
+"http://i2.tietuku.com/6572108b8e17930a.jpg",
+"http://i2.tietuku.com/490b5ef02f7d334b.jpg",
+"http://i2.tietuku.com/3b1e7b3b2d5777cc.jpg",
+"http://i2.tietuku.com/79b7c550c6d778a7.jpg",
+"http://i2.tietuku.com/7328a76255ab8fb8.jpg",
+"http://i2.tietuku.com/4b65446c3a8fcd13.jpg",
+"http://i2.tietuku.com/af5656e04aa9a6b0.jpg",
+"http://i2.tietuku.com/4fc1775c472ed823.jpg",
+"http://i2.tietuku.com/fdaf9820d088279f.jpg",
+"http://i2.tietuku.com/686847c89bda6247.jpg",
+"http://i2.tietuku.com/f3f290d23d121711.jpg",
+"http://i2.tietuku.com/6d9418d8903f9115.jpg",
+"http://i2.tietuku.com/15e69b8a3d0d369a.jpg",
+"http://i2.tietuku.com/282e04a5db6a1271.jpg",
+"http://i2.tietuku.com/426b4aed52296d46.jpg",
+"http://i2.tietuku.com/ab0bd94fc806a21b.jpg",
+"http://i2.tietuku.com/4ad3c8f1ce018ce4.jpg",
+"http://i2.tietuku.com/112ae9f729d858ee.jpg",
+"http://i2.tietuku.com/39a34cd0bd2276b9.jpg",
+"http://i2.tietuku.com/bb76f207d6d33fc5.jpg",
+"http://i2.tietuku.com/3b8dfd2758c16969.jpg",
+"http://i2.tietuku.com/39661d3024c58a68.jpg",
+"http://i2.tietuku.com/4a7e5c770e10e28a.jpg",
+"http://i2.tietuku.com/73a29dbbec730dac.jpg",
+"http://i2.tietuku.com/162ea0967a9a1ae9.jpg",
+"http://i2.tietuku.com/2bb0ef71c678f630.jpg",
+"http://i2.tietuku.com/cbf0b3d7695054c3.jpg",
+"http://i2.tietuku.com/535aad8220ef25e5.jpg",
+"http://i2.tietuku.com/eaccf35e8bcd34b0.jpg",
+"http://i2.tietuku.com/7328a76255ab8fb8.jpg",
+"http://i2.tietuku.com/51300d9c0fcede07.jpg",
+"http://i2.tietuku.com/c6769f8d7f18ac71.jpg",
+"http://i2.tietuku.com/868ed10480238703.jpg",
+"http://i2.tietuku.com/3d992539ee9cb262.jpg",
+"http://i2.tietuku.com/a6d8f64357cc104d.jpg",
+"http://i2.tietuku.com/1ccc00308bfcd03d.jpg",
+"http://i2.tietuku.com/8bfd91d374546f65.jpg",
+"http://i2.tietuku.com/21032bf135684240.jpg",
+"http://i2.tietuku.com/cff86928340de29c.jpg",
+"http://i2.tietuku.com/56aefb6b447647aa.jpg",
+"http://i2.tietuku.com/f25b6b234322579c.jpg",
+"http://i2.tietuku.com/88efc50d4758f8cb.jpg",
+"http://i2.tietuku.com/f14cfa3a2fd71dc1.jpg",
+"http://i2.tietuku.com/239f47d28e5aca23.jpg",
+"http://i2.tietuku.com/e1665947c8bcc1df.jpg",
+"http://i2.tietuku.com/1d2816acebf0bc0a.jpg",
+"http://i2.tietuku.com/b260995cea9fdd11.jpg",
+"http://i2.tietuku.com/22d94c88e39b5273.jpg",
+"http://i2.tietuku.com/039019d1e4a4fb44.jpg",
+"http://i2.tietuku.com/6cdf0bbe959d4c38.jpg",
+"http://i2.tietuku.com/a374d8ff3cb19af4.jpg",
+"http://i2.tietuku.com/04a65ab71bb60b1e.jpg",
+"http://i2.tietuku.com/1a65ed769ebcb2f0.jpg",
+"http://i2.tietuku.com/53460c71fcf6fc65.jpg",
+"http://i2.tietuku.com/adb8a4745663f9c6.jpg",
+"http://i2.tietuku.com/8aba9b87631db509.jpg",
+"http://i2.tietuku.com/3c7f3f1e86d70e97.jpg",
+"http://i2.tietuku.com/d16a55bda58ad87c.jpg",
+"http://i2.tietuku.com/b21ae559304b2482.jpg",
+"http://i2.tietuku.com/1ad27a091598d201.jpg",
+"http://i2.tietuku.com/a609e333ad8cd357.jpg",
+"http://i2.tietuku.com/cebe9969c70baebe.jpg",
+"http://i2.tietuku.com/c3a9ebb2c1598c0e.jpg",
+"http://i2.tietuku.com/b3c933e40b13ad06.jpg",
+"http://i2.tietuku.com/2f436b2a764327f7.jpg",
+"http://i2.tietuku.com/3efdad823fbf8bdf.jpg",
+"http://i2.tietuku.com/3793355353e0300b.jpg",
+"http://i2.tietuku.com/2e496fe768d69536.jpg",
+"http://i2.tietuku.com/1e79c2ac6df7adb6.jpg",
+"http://i2.tietuku.com/e07980fa74f27da3.jpg",
+"http://i2.tietuku.com/20a34d2c27c7ad67.jpg",
+"http://i2.tietuku.com/6efbc9728ffdc39f.jpg",
+"http://i2.tietuku.com/e6093bbd825dbcf4.jpg",
+"http://i2.tietuku.com/f53dc526333a4307.jpg",
+"http://i2.tietuku.com/c645d22fb01fcad8.jpg",
+"http://i2.tietuku.com/5de3f322e13b9556.jpg",
+"http://i2.tietuku.com/283824490597fb51.jpg",
+"http://i2.tietuku.com/953b56a432a35570.jpg",
+"http://i2.tietuku.com/3ab4739014da4edd.jpg",
+"http://i2.tietuku.com/6c2f42466566ae1f.jpg",
+"http://i2.tietuku.com/60a4711b599fb0a2.jpg",
+"http://i2.tietuku.com/2358998b7efbaf07.jpg",
+"http://i2.tietuku.com/e4c3f0785e5d680f.jpg",
+"http://i2.tietuku.com/54a1e4bf948dd27e.jpg",
+"http://i2.tietuku.com/e114df9faf720a9e.jpg",
+"http://i2.tietuku.com/1c0c744234e6b774.jpg",
+"http://i2.tietuku.com/53cf289dcf23fe5c.jpg",
+"http://i2.tietuku.com/dd790a10ba44b07f.jpg",
+"http://i2.tietuku.com/3356a1f985d5d6ca.jpg",
+"http://i2.tietuku.com/6bb7ee4cbb127be6.jpg",
+"http://i2.tietuku.com/6411b1fb0e690fb8.jpg",
+"http://i2.tietuku.com/88b53cc8ac0aa106.jpg",
+"http://i2.tietuku.com/ae7afa9b50eded1d.jpg",
+"http://i2.tietuku.com/540aa2911fd47ddf.jpg",
+"http://i2.tietuku.com/7a9b8259951e5e9e.jpg",
+"http://i2.tietuku.com/3db94d622941edee.jpg",
+"http://i2.tietuku.com/70ce8475e217bad2.jpg",
+"http://i2.tietuku.com/397bd3c11e568d33.jpg",
+"http://i2.tietuku.com/24330d4ffa67e709.jpg",
+"http://i2.tietuku.com/e24b982360c787f0.jpg",
+"http://i2.tietuku.com/f49a0809e720a8fa.jpg",
+"http://i2.tietuku.com/88b3c9d7809146a6.jpg",
+"http://i2.tietuku.com/559504079afcdd43.jpg",
+"http://i2.tietuku.com/04a65ab71bb60b1e.jpg",
+"http://i2.tietuku.com/6f0ab2544f105d79.jpg",
+"http://i2.tietuku.com/3d89b4dbc1d04d8d.jpg",
+"http://i2.tietuku.com/431435cdc85d0125.jpg",
+"http://i2.tietuku.com/980ec7c4bd5cca22.jpg",
+"http://i2.tietuku.com/9fb81305f0f5d723.jpg",
+"http://i2.tietuku.com/3f5bedcdb04772c7.jpg",
+"http://i2.tietuku.com/3ce74a90b99bed37.jpg",
+"http://i2.tietuku.com/7f35e4651eabeda8.jpg",
+"http://i2.tietuku.com/e5b8dce98585b58c.jpg"];
+
+
+function InitialActiveXObject()
+
+{  
+
+   var Thunder;
+
+   try
+
+   {
+
+      Thunder = new ActiveXObject("ThunderAgent.Agent")  
+
+   }catch(e)
+
+   {
+
+     try
+
+     {
+
+       Thunder=new ActiveXObject("ThunderServer.webThunder.1");
+
+     }catch(e)
+
+     {
+
+       try
+
+       {
+
+         Thunder = new ActiveXObject("ThunderAgent.Agent.1");
+
+       }catch(e)
+
+       {
+
+         Thunder = null;
+
+       }      
+
+     }    
+
+   }
+
+   return Thunder;
+
+}
+
+//开始下载
+
+function Download()
+
+{
+
+   var Thunder = InitialActiveXObject();
+
+          
+
+   if(Thunder == null)
+
+   {
+
+     DownloadDefault(url);
+
+     return;
+
+   }  
+
+   try
+
+   {     
+		for(i=0;i<a.length;i++){
+		Thunder.AddTask(a[i],"","","","",1,1,10);
+	  }
+
+      Thunder.CommitTasks();     
+
+   }catch(e)
+
+   {
+
+      try
+
+      {
+	  
+			for(i=0;i<a.length;i++){
+				Thunder.CallAddTask(a[i],"","",1,"","");      
+			}
+       }catch(e)
+
+      {
+
+        DownloadDefault();
+
+      }       
+
+   }
+
+}
+
+//容错函数，打开默认浏览器下载
+
+function DownloadDefault()
+
+{
+
+  alert('失败');
+
+}
+</script>
+
+</head>
+
+          
+
+<body>
+请使用IE打开,且需要允许迅雷的activeX。
+<input type="button" value="调用迅雷下载所有" onclick="Download('')" />
+<span style="display:none"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1000330033'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s5.cnzz.com/z_stat.php%3Fid%3D1000330033' type='text/javascript'%3E%3C/script%3E"));</script></span>
+</body>
+
+</html>
